@@ -24,6 +24,9 @@
     <copyfile src="udoo/README_make_uSD.txt" dest="README_make_uSD.txt" />
   </project>
 
+  <!-- UDOOboard device layer -->
+  <project path="device/udoo" name="android_device_udoo" remote="udooboard-github" revision="android-5.1.1" groups="pdk" />
+
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
