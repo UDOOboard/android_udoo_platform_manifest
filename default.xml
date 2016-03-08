@@ -16,7 +16,7 @@
   <project path="bootable/bootloader/uboot-imx" name="uboot-imx" remote="udooboard-github" revision="2015.04.imx-neo" />
 
   <!-- UDOOboard build -->
-  <project path="build" name="android_udoo_platform_build" remote="udooboard-github" revision="android-5.1.1" groups="pdk,tradefed" >
+  <project path="build" name="android_udoo_platform_build" remote="udooboard-github" revision="android-5.1.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="udoo/make_sd.sh" dest="make_sd.sh" />
     <copyfile src="udoo/prepare_distro.sh" dest="prepare_distro.sh" />
@@ -25,15 +25,36 @@
   </project>
 
   <!-- UDOOboard device layer -->
-  <project path="device/udoo" name="android_device_udoo" remote="udooboard-github" revision="android-5.1.1" groups="pdk" />
+  <project path="device/udoo" name="android_device_udoo" remote="udooboard-github" revision="android-5.1.1" />
+
+  <!-- projects added/changed by Freescale -->
+  <project path="bionic" name="android_bionic" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="dalvik" name="android_dalvik" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="device/fsl" name="android_device_fsl" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/aac" name="android_external_aac" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/busybox" name="android_external_busybox" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq="udooboard-github" revision="android-5.1.1" />
+  <project path="external/fsl_vpu_omx" name="android_external_fsl_vpu_omx" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/kernel-headers" name="android_external_kernel-headers" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/libpng" name="android_external_libpng" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/linux-firmware-imx" name="android_external_linux-firmware-imx" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/linux-lib" name="android_external_linux-lib" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/linux-test" name="android_external_linux-test" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/libselinux" name="android_external_libselinux" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/mtd-utils" name="android_external_mtd-utils" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="external/powerdebug" name="android_external_powerdebug" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="hardware/realtek" name="android_hardware_realtek" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="hardware/imx" name="android_hardware_imx" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="packages/apps/fsl_imx_demo" name="android_packages_apps_fsl_imx_demo" remote="udooboard-github" revision="android-5.1.1" />
+
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
-  <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
   <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
-  <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="developers/demos" name="platform/developers/demos" />
   <project path="developers/docs" name="platform/developers/docs" />
@@ -46,7 +67,6 @@
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
-  <project path="external/aac" name="platform/external/aac" groups="pdk" />
   <project path="external/android-clat" name="platform/external/android-clat" groups="pdk-cw-fs" />
   <project path="external/ant-glob" name="platform/external/ant-glob" groups="pdk-cw-fs" />
   <project path="external/antlr" name="platform/external/antlr" groups="pdk-cw-fs,tradefed" />
@@ -57,7 +77,6 @@
   <project path="external/arduino" name="platform/external/arduino" groups="pdk-cw-fs" />
   <project path="external/bison" name="platform/external/bison" groups="pdk" />
   <project path="external/blktrace" name="platform/external/blktrace" groups="pdk-cw-fs" />
-  <project path="external/bluetooth/bluedroid" name="platform/external/bluetooth/bluedroid" groups="pdk" />
   <project path="external/bouncycastle" name="platform/external/bouncycastle" groups="pdk" />
   <project path="external/bsdiff" name="platform/external/bsdiff" groups="pdk" />
   <project path="external/bzip2" name="platform/external/bzip2" groups="pdk" />
@@ -104,7 +123,6 @@
   <project path="external/deqp" name="platform/external/deqp" />
   <project path="external/dexmaker" name="platform/external/dexmaker" groups="pdk-cw-fs" />
   <project path="external/dhcpcd" name="platform/external/dhcpcd" groups="pdk-cw-fs" />
-  <project path="external/dnsmasq" name="platform/external/dnsmasq" groups="pdk" />
   <project path="external/doclava" name="platform/external/doclava" groups="pdk-cw-fs,tradefed" />
   <project path="external/droiddriver" name="platform/external/droiddriver" groups="pdk-cw-fs" />
   <project path="external/e2fsprogs" name="platform/external/e2fsprogs" groups="pdk" />
@@ -157,7 +175,6 @@
   <project path="external/jsr305" name="platform/external/jsr305" groups="pdk-cw-fs,tradefed" />
   <project path="external/junit" name="platform/external/junit" groups="pdk-cw-fs,tradefed" />
   <project path="external/ksoap2" name="platform/external/ksoap2" groups="pdk-cw-fs" />
-  <project path="external/kernel-headers" name="platform/external/kernel-headers" groups="pdk-cw-fs" />
   <project path="external/libcap-ng" name="platform/external/libcap-ng" groups="pdk-cw-fs" />
   <project path="external/libcxx" name="platform/external/libcxx" groups="pdk" />
   <project path="external/libcxxabi" name="platform/external/libcxxabi" groups="pdk" />
@@ -174,9 +191,7 @@
   <project path="external/libopus" name="platform/external/libopus" groups="pdk" />
   <project path="external/libpcap" name="platform/external/libpcap" groups="pdk,pdk-cw-fs" />
   <project path="external/libphonenumber" name="platform/external/libphonenumber" groups="pdk-cw-fs" />
-  <project path="external/libpng" name="platform/external/libpng" groups="pdk" />
   <project path="external/libseccomp-helper" name="platform/external/libseccomp-helper" groups="pdk-cw-fs" />
-  <project path="external/libselinux" name="platform/external/libselinux" groups="pdk" />
   <project path="external/libsepol" name="platform/external/libsepol" groups="pdk" />
   <project path="external/libssh2" name="platform/external/libssh2" groups="pdk-cw-fs" />
   <project path="external/libunwind" name="platform/external/libunwind" groups="pdk" />
