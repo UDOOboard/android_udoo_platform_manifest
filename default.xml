@@ -60,11 +60,22 @@
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" remote="udooboard-github" revision="android-5.1.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="udooboard-github" revision="android-5.1.1" />
   <project path="frameworks/webview" name="android_frameworks_webview" remote="udooboard-github" revision="android-5.1.1" />
-  <project path="hardware/realtek" name="android_hardware_realtek" remote="udooboard-github" revision="android-5.1.1" />
   <project path="hardware/imx" name="android_hardware_imx" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="hardware/qcom/wlan" name="android_hardware_qcom_wlan" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="hardware/realtek" name="android_hardware_realtek" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="udooboard-github" revision="android-5.1.1" />
   <project path="libcore" name="android_libcore" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="packages/apps/Email" name="android_packages_apps_Email" remote="udooboard-github" revision="android-5.1.1" />
   <project path="packages/apps/fsl_imx_demo" name="android_packages_apps_fsl_imx_demo" remote="udooboard-github" revision="android-5.1.1" />
-
+  <project path="packages/apps/Gallery" name="android_packages_apps_Gallery" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.6" revision="refs/tags/android-4.4.3_r1" />
 
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
@@ -342,7 +353,6 @@
   <project path="hardware/intel/img/psb_headers" name="platform/hardware/intel/img/psb_headers" groups="intel" />
   <project path="hardware/intel/img/psb_video" name="platform/hardware/intel/img/psb_video" groups="intel" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" />
-  <project path="hardware/libhardware" name="platform/hardware/libhardware" groups="pdk" />
   <project path="hardware/libhardware_legacy" name="platform/hardware/libhardware_legacy" groups="pdk" />
   <project path="hardware/nvidia/audio" name="platform/hardware/nvidia/audio" groups="nvidia_audio" />
   <project path="hardware/nvidia/tegra124" name="platform/hardware/nvidia/tegra124" groups="tegra124" />
@@ -359,8 +369,6 @@
   <project path="hardware/qcom/msm8x84" name="platform/hardware/qcom/msm8x84" groups="qcom_msm8x84" />
   <project path="hardware/qcom/power" name="platform/hardware/qcom/power" groups="qcom" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" />
-  <project path="hardware/qcom/wlan" name="platform/hardware/qcom/wlan" groups="qcom_wlan" />
-  <project path="hardware/ril" name="platform/hardware/ril" groups="pdk" />
   <project path="hardware/samsung_slsi/exynos5" name="platform/hardware/samsung_slsi/exynos5" groups="exynos5" />
   <project path="hardware/ti/omap3" name="platform/hardware/ti/omap3" groups="omap3" />
   <project path="hardware/ti/omap4-aah" name="platform/hardware/ti/omap4-aah" groups="omap4-aah" />
@@ -369,28 +377,21 @@
   <project path="ndk" name="platform/ndk" />
   <project path="packages/apps/BasicSmsReceiver" name="platform/packages/apps/BasicSmsReceiver" />
   <project path="packages/apps/Bluetooth" name="platform/packages/apps/Bluetooth" groups="pdk-cw-fs" />
-  <project path="packages/apps/Browser" name="platform/packages/apps/Browser" />
   <project path="packages/apps/Calculator" name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calendar" name="platform/packages/apps/Calendar" />
   <project path="packages/apps/Camera" name="platform/packages/apps/Camera" />
-  <project path="packages/apps/Camera2" name="platform/packages/apps/Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" name="platform/packages/apps/CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" name="platform/packages/apps/CertInstaller" groups="pdk-cw-fs" />
   <project path="packages/apps/Contacts" name="platform/packages/apps/Contacts" />
   <project path="packages/apps/ContactsCommon" name="platform/packages/apps/ContactsCommon" />
   <project path="packages/apps/DeskClock" name="platform/packages/apps/DeskClock" />
   <project path="packages/apps/Dialer" name="platform/packages/apps/Dialer" />
-  <project path="packages/apps/Email" name="platform/packages/apps/Email" />
   <project path="packages/apps/Exchange" name="platform/packages/apps/Exchange" />
   <project path="packages/apps/FMRadio" name="platform/packages/apps/FMRadio" />
-  <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" />
   <project path="packages/apps/InCallUI" name="platform/packages/apps/InCallUI" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" />
-  <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" />
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
-  <project path="packages/apps/LegacyCamera" name="platform/packages/apps/LegacyCamera" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Mms" name="platform/packages/apps/Mms" />
   <project path="packages/apps/Music" name="platform/packages/apps/Music" />
@@ -405,7 +406,6 @@
   <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/Settings" name="platform/packages/apps/Settings" />
   <project path="packages/apps/SmartCardService" name="platform/packages/apps/SmartCardService" />
-  <project path="packages/apps/SoundRecorder" name="platform/packages/apps/SoundRecorder" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
   <project path="packages/apps/SpeechRecorder" name="platform/packages/apps/SpeechRecorder" />
   <project path="packages/apps/Stk" name="platform/packages/apps/Stk" />
