@@ -42,7 +42,7 @@
   <project path="external/aac" name="android_external_aac" remote="udooboard-github" revision="android-5.1.1" />
   <project path="external/busybox" name="android_external_busybox" remote="udooboard-github" revision="android-5.1.1" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" remote="udooboard-github" revision="android-5.1.1" />
-  <project path="external/dnsmasq" name="android_external_dnsmasq="udooboard-github" revision="android-5.1.1" />
+  <project path="external/dnsmasq" name="android_external_dnsmasq" remote="udooboard-github" revision="android-5.1.1" />
   <project path="external/fsl_vpu_omx" name="android_external_fsl_vpu_omx" remote="udooboard-github" revision="android-5.1.1" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="udooboard-github" revision="android-5.1.1" />
   <project path="external/libpng" name="android_external_libpng" remote="udooboard-github" revision="android-5.1.1" />
