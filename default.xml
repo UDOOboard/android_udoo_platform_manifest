@@ -89,7 +89,7 @@
   <project path="system/netd" name="android_system_netd" remote="udooboard-github" revision="android-5.1.1" />
   <project path="system/vold" name="android_system_vold" remote="udooboard-github" revision="android-5.1.1" />
 
-
+  <!-- Unchanged AOSP projects -->
   <project path="abi/cpp" name="platform/abi/cpp" groups="pdk" />
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
