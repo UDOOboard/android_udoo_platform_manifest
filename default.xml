@@ -13,7 +13,7 @@
            sync-j="4" />
 
   <!-- UDOOboard kernel and u-boot -->
-  <project path="kernel_imx" name="linux_kernel" remote="udooboard-github" revision="l5.1.1_2.1.0-udoo" />
+  <project path="kernel_imx" name="linux_kernel" remote="udooboard-github" revision="m6.0.1-udoo" />
   <project path="bootable/bootloader/uboot-imx" name="uboot-imx" remote="udooboard-github" revision="2015.04.imx-neo" />
 
   <!-- UDOOboard build -->
@@ -47,7 +47,6 @@
   <project path="external/ppp" name="android_external_ppp" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/skia" name="android_external_skia" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="external/tools" name="android_external_tools" remote="udooboard-github" revision="android-5.1.1" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="udooboard-github" revision="android-6.0.1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="udooboard-github" revision="android-6.0.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="udooboard-github" revision="android-6.0.1" />
