@@ -17,7 +17,7 @@
   <project path="bootable/bootloader/uboot-imx" name="uboot-imx" remote="udooboard-github" revision="2015.04.imx-neo" />
 
   <!-- UDOOboard build -->
-  <project path="build" name="android_udoo_platform_build" remote="udooboard-github" revision="android-5.1.1" >
+  <project path="build" name="android_udoo_platform_build" remote="udooboard-github" revision="android-6.0.1" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <copyfile src="udoo/make_sd.sh" dest="make_sd.sh" />
     <copyfile src="udoo/prepare_distro.sh" dest="prepare_distro.sh" />
@@ -26,7 +26,7 @@
   </project>
 
   <!-- UDOOboard device layer -->
-  <project path="device/udoo" name="android_device_udoo" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="device/udoo" name="android_device_udoo" remote="udooboard-github" revision="android-6.0.1" />
 
   <!-- projects added/changed by UDOOboard and NXP -->
   <project path="bionic" name="android_bionic" remote="udooboard-github" revision="android-6.0.1" />
