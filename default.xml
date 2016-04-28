@@ -56,6 +56,7 @@
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="hardware/imx" name="android_hardware_imx" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/realtek" name="android_hardware_realtek" remote="udooboard-github" revision="android-6.0.1" />
