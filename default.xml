@@ -37,6 +37,7 @@
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/fsl_vpu_omx" name="android_external_fsl_vpu_omx" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="external/uicommon" name="cyanogenmod/android_external_cyanogen_UICommon" remote="github" revision="cm-13.0" />
   <project path="external/libtruezip" name="cyanogenmod/android_external_libtruezip" remote="github" revision="cm-13.0" />
   <project path="external/linux-firmware-imx" name="android_external_linux-firmware-imx" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/linux-lib" name="android_external_linux-lib" remote="udooboard-github" revision="android-6.0.1" />
