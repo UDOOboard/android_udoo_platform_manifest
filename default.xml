@@ -64,7 +64,7 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="udooboard-github" revision="android-5.1.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="udooboard-github" revision="android-5.1.1" />
   <project path="libcore" name="android_libcore" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="packages/apps/AdbWireless" name="android_packages_apps_AdbWireless" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="packages/apps/AdbWireless" name="android_packages_apps_AdbWireless" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="udooboard-github" revision="android-6.0.1" />
