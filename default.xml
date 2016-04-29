@@ -46,6 +46,7 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/powerdebug" name="android_external_powerdebug" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/ppp" name="android_external_ppp" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="external/setotg" name="android_external_setotg" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/skia" name="android_external_skia" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="udooboard-github" revision="android-6.0.1" />
@@ -102,9 +103,6 @@
   <project name="platform/cts" path="cts" />
   <project name="platform/dalvik" path="dalvik" />
   <project name="platform/developers/build" path="developers/build" />
-  <project name="platform/developers/demos" path="developers/demos" />
-  <project name="platform/developers/docs" path="developers/docs" />
-  <project name="platform/developers/samples/android" path="developers/samples/android" />
   <project name="platform/development" path="development" />
   <project name="platform/external/aac" path="external/aac" />
   <project name="platform/external/android-clat" path="external/android-clat" />
