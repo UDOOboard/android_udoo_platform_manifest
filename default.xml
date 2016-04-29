@@ -80,7 +80,7 @@
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="packages/apps/SuperSU" name="android_packages_apps_SuperSU" remote="udooboard-github" revision="android-5.1.1" />
+  <project path="packages/apps/SuperSU" name="android_packages_apps_SuperSU" remote="udooboard-github" revision="android-6.0.1" />
   <project path="system/bt" name="android_system_bt" remote="udooboard-github" revision="android-6.0.1" />
   <project path="system/core" name="android_system_core" remote="udooboard-github" revision="android-6.0.1" />
   <project path="system/extras" name="android_system_extras" remote="udooboard-github" revision="android-6.0.1" />
