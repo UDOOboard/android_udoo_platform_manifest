@@ -46,7 +46,6 @@
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/powerdebug" name="android_external_powerdebug" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/ppp" name="android_external_ppp" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="external/setotg" name="android_external_setotg" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/skia" name="android_external_skia" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="udooboard-github" revision="android-6.0.1" />
