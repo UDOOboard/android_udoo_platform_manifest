@@ -33,6 +33,7 @@
   <project path="bootable/recovery" name="android_bootable_recovery" remote="udooboard-github" revision="android-6.0.1" />
   <project path="device/fsl" name="android_device_fsl" remote="udooboard-github" revision="android-6.0.1" />
   <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" remote="github" revision="cm-13.0" />
   <project path="external/busybox" name="android_external_busybox" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/fsl_vpu_omx" name="android_external_fsl_vpu_omx" remote="udooboard-github" revision="android-6.0.1" />
@@ -43,6 +44,7 @@
   <project path="external/linux-lib" name="android_external_linux-lib" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/linux-test" name="android_external_linux-test" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/mtd-utils" name="android_external_mtd-utils" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="cm-13.0" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/powerdebug" name="android_external_powerdebug" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/ppp" name="android_external_ppp" remote="udooboard-github" revision="android-6.0.1" />
