@@ -8,7 +8,7 @@
            fetch="git://github.com/" />
   <remote  name="udooboard-github"
            fetch="git://github.com/UDOOboard/" />
-  <default revision="refs/tags/android-6.0.1_r31"
+  <default revision="refs/tags/android-6.0.1_r43"
            remote="aosp"
            sync-j="4" />
 
@@ -38,9 +38,9 @@
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/fsl_vpu_omx" name="android_external_fsl_vpu_omx" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="external/uicommon" name="cyanogenmod/android_external_cyanogen_UICommon" remote="github" revision="cm-13.0" />
+  <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" remote="github" revision="cm-13.0" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-13.0" />
-  <project path="external/libtruezip" name="cyanogenmod/android_external_libtruezip" remote="github" revision="cm-13.0" />
+  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-13.0" />
   <project path="external/linux-firmware-imx" name="android_external_linux-firmware-imx" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/linux-lib" name="android_external_linux-lib" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/linux-test" name="android_external_linux-test" remote="udooboard-github" revision="android-6.0.1" />
@@ -57,8 +57,6 @@
   <project path="frameworks/native" name="android_frameworks_native" remote="udooboard-github" revision="android-6.0.1" />
   <project path="frameworks/opt/net/ethernet" name="android_frameworks_opt_net_ethernet" remote="udooboard-github" revision="android-6.0.1" />
   <project path="frameworks/opt/telephony" name="android_frameworks_opt_telephony" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/imx" name="android_hardware_imx" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="udooboard-github" revision="android-6.0.1" />
@@ -72,7 +70,7 @@
   <project path="packages/apps/Browser" name="android_packages_apps_Browser" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Camera2" name="android_packages_apps_Camera2" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="packages/apps/CMFileManager" name="cyanogenmod/android_packages_apps_CMFileManager" remote="github" revision="cm-13.0" />
+  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-13.0" />
   <project path="packages/apps/DeskClock" name="android_packages_apps_DeskClock" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Email" name="android_packages_apps_Email" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Exchange" name="android_packages_apps_Exchange" remote="udooboard-github" revision="android-6.0.1" />
