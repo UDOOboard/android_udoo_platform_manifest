@@ -216,6 +216,7 @@
   <project name="platform/external/libssh2" path="external/libssh2" />
   <project name="platform/external/libunwind" path="external/libunwind" />
   <project name="platform/external/libusb" path="external/libusb" />
+  <project name="platform/external/libusb_aah" path="external/libusb_aah" revision="kitkat-wear" />
   <project name="platform/external/libusb-compat" path="external/libusb-compat" />
   <project name="platform/external/libutf" path="external/libutf" />
   <project name="platform/external/libvncserver" path="external/libvncserver" />
