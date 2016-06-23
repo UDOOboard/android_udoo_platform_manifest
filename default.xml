@@ -203,8 +203,6 @@
   <project name="platform/external/liblzf" path="external/liblzf" />
   <project name="platform/external/libmpeg2" path="external/libmpeg2" />
   <project name="platform/external/libmtp" path="external/libmtp" />
-  <project name="platform/external/libnfc-nci" path="external/libnfc-nci" />
-  <project name="platform/external/libnfc-nxp" path="external/libnfc-nxp" />
   <project name="platform/external/libnl" path="external/libnl" />
   <project name="platform/external/libogg" path="external/libogg" />
   <project name="platform/external/libopus" path="external/libopus" />
@@ -359,7 +357,6 @@
   <project name="platform/packages/apps/Messaging" path="packages/apps/Messaging" />
   <project name="platform/packages/apps/Music" path="packages/apps/Music" />
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" />
-  <project name="platform/packages/apps/Nfc" path="packages/apps/Nfc" />
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" />
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" />
   <project name="platform/packages/apps/Phone" path="packages/apps/Phone" />
@@ -371,7 +368,6 @@
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" />
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" />
   <project name="platform/packages/apps/Stk" path="packages/apps/Stk" />
-  <project name="platform/packages/apps/Tag" path="packages/apps/Tag" />
   <project name="platform/packages/apps/TvSettings" path="packages/apps/TvSettings" />
   <project name="platform/packages/apps/UnifiedEmail" path="packages/apps/UnifiedEmail" />
   <project name="platform/packages/experimental" path="packages/experimental" />
