@@ -51,6 +51,7 @@
   <project path="external/ppp" name="android_external_ppp" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/skia" name="android_external_skia" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="external/toybox" name="CyanogenMod/android_external_toybox" remote="github" revision="cm-13.0" />
   <project path="external/tools" name="android_external_tools" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="udooboard-github" revision="android-6.0.1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="udooboard-github" revision="android-6.0.1" />
@@ -289,7 +290,6 @@
   <project name="platform/external/tinycompress" path="external/tinycompress" />
   <project name="platform/external/tinyxml" path="external/tinyxml" />
   <project name="platform/external/tinyxml2" path="external/tinyxml2" />
-  <project name="platform/external/toybox" path="external/toybox" />
   <project name="platform/external/tremolo" path="external/tremolo" />
   <project name="platform/external/v8" path="external/v8" />
   <project name="platform/external/valgrind" path="external/valgrind" />
