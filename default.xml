@@ -32,11 +32,12 @@
   <project path="bionic" name="android_bionic" remote="udooboard-github" revision="android-6.0.1" />
   <project path="bootable/recovery" name="Team-Win-Recovery-Project" remote="udooboard-github" revision="android-6.0" />
   <project path="device/fsl" name="android_device_fsl" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="device/fsl-codec" name="FreeSrk/codec" remote="github" revision="master" />
   <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/bash" name="android_external_bash" remote="udooboard-github" revision="cm-13.0" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
   <project path="external/dnsmasq" name="android_external_dnsmasq" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="external/fsl_vpu_omx" name="android_external_fsl_vpu_omx" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="external/fsl_imx_omx" name="FreeSrk/omx" remote="github" revision="master" />
   <project path="external/kernel-headers" name="android_external_kernel-headers" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" remote="github" revision="cm-13.0" />
   <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-13.0" />
