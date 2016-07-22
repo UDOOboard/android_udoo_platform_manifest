@@ -63,7 +63,7 @@
   <project path="hardware/imx" name="android_hardware_imx" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/libhardware" name="android_hardware_libhardware" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="hardware/realtek" name="android_hardware_realtek" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="hardware/ril" name="android_hardware_ril" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="udooboard-github" revision="android-6.0.1" />
   <project path="libcore" name="android_libcore" remote="udooboard-github" revision="android-6.0.1" />
