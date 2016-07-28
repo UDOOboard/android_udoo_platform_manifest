@@ -344,7 +344,6 @@
   <project name="platform/packages/apps/ContactsCommon" path="packages/apps/ContactsCommon" />
   <project name="platform/packages/apps/ExactCalculator" path="packages/apps/ExactCalculator" />
   <project name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" />
-  <project name="platform/packages/apps/InCallUI" path="packages/apps/InCallUI" />
   <project name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" />
   <project name="platform/packages/apps/Launcher3" path="packages/apps/Launcher3" />
   <project name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" />
@@ -353,11 +352,9 @@
   <project name="platform/packages/apps/MusicFX" path="packages/apps/MusicFX" />
   <project name="platform/packages/apps/OneTimeInitializer" path="packages/apps/OneTimeInitializer" />
   <project name="platform/packages/apps/PackageInstaller" path="packages/apps/PackageInstaller" />
-  <project name="platform/packages/apps/Phone" path="packages/apps/Phone" />
   <project name="platform/packages/apps/PhoneCommon" path="packages/apps/PhoneCommon" />
   <project name="platform/packages/apps/Protips" path="packages/apps/Protips" />
   <project name="platform/packages/apps/Provision" path="packages/apps/Provision" />
-  <project name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" />
   <project name="platform/packages/apps/SmartCardService" path="packages/apps/SmartCardService" />
   <project name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" />
   <project name="platform/packages/apps/SpeechRecorder" path="packages/apps/SpeechRecorder" />
