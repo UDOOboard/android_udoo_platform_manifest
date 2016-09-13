@@ -54,6 +54,7 @@
   <project path="external/tinyalsa" name="android_external_tinyalsa" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/toybox" name="CyanogenMod/android_external_toybox" remote="github" revision="cm-13.0" />
   <project path="external/tools" name="android_external_tools" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="external/udooneo-m4uploader" name="udooneo-m4uploader" remote="github" revision="master" />
   <project path="external/wpa_supplicant_8" name="android_external_wpa_supplicant_8" remote="udooboard-github" revision="android-6.0.1" />
   <project path="frameworks/av" name="android_frameworks_av" remote="udooboard-github" revision="android-6.0.1" />
   <project path="frameworks/base" name="android_frameworks_base" remote="udooboard-github" revision="android-6.0.1" />
