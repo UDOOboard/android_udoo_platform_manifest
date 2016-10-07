@@ -8,7 +8,7 @@
            fetch="git://github.com/" />
   <remote  name="udooboard-github"
            fetch="git://github.com/UDOOboard/" />
-  <default revision="refs/tags/android-6.0.1_r59"
+  <default revision="refs/tags/android-6.0.1_r70"
            remote="aosp"
            sync-j="4" />
 
