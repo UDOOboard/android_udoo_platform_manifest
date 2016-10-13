@@ -6,6 +6,8 @@
            review="https://android-review.googlesource.com/" />
   <remote  name="github"
            fetch="git://github.com/" />
+  <remote  name="android_x86"
+	  fetch="git://git.osdn.jp/gitroot/android-x86/" />
   <remote  name="udooboard-github"
            fetch="git://github.com/UDOOboard/" />
   <default revision="refs/tags/android-6.0.1_r70"
@@ -91,6 +93,10 @@
   <project path="system/netd" name="android_system_netd" remote="udooboard-github" revision="android-6.0.1" />
   <project path="system/vold" name="android_system_vold" remote="udooboard-github" revision="android-6.0.1" />
   
+  <!-- Unchanged from Android_x86 -->
+  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="android_x86" revision="9c984105900b298e75f6bb105aef8dea9bd0f110" upstream="marshmallow-x86"/>
+  <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="android_x86" revision="43b201bd2865131f849c0fdb58efc830de69aa7a" upstream="marshmallow-x86"/>
+  <project path="external/bluetooth/sbc" name="platform/external/bluetooth/sbc" remote="android_x86" revision="24812c660036a693f8770766aa6fdea667de05d0" upstream="marshmallow-x86"/>
   
   <!-- Unchanged AOSP projects -->
   <project name="device/common" />
