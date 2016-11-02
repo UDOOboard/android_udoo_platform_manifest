@@ -7,7 +7,9 @@
   <remote  name="github"
            fetch="git://github.com/" />
   <remote  name="android_x86"
-	  fetch="git://git.osdn.jp/gitroot/android-x86/" />
+           fetch="git://git.osdn.jp/gitroot/android-x86/" />
+  <remote  name="UberTC"
+           fetch="https://bitbucket.org/UBERTC/" />
   <remote  name="udooboard-github"
            fetch="git://github.com/UDOOboard/" />
   <default revision="refs/tags/android-6.0.1_r70"
@@ -98,6 +100,9 @@
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="android_x86" revision="43b201bd2865131f849c0fdb58efc830de69aa7a" upstream="marshmallow-x86"/>
   <project path="external/bluetooth/sbc" name="platform/external/bluetooth/sbc" remote="android_x86" revision="24812c660036a693f8770766aa6fdea667de05d0" upstream="marshmallow-x86"/>
   
+  <!-- Unchanged from UberTC -->
+  <project name="arm-eabi-5.3.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" remote="UberTC" revision="master"/>
+  
   <!-- Unchanged AOSP projects -->
   <project name="device/common" />
   <project name="device/generic/armv7-a-neon" />
@@ -107,7 +112,6 @@
   <project name="device/google/atv" />
   <project name="platform/abi/cpp" path="abi/cpp" />
   <project name="platform/art" path="art" />
-
   <project name="platform/dalvik" path="dalvik" />
   <project name="platform/developers/build" path="developers/build" />
   <project name="platform/development" path="development" />
@@ -397,12 +401,9 @@
   <project name="platform/platform_testing" path="platform_testing" />
   <project name="platform/prebuilts/clang/linux-x86/host/3.6" path="prebuilts/clang/linux-x86/host/3.6" />
   <project name="platform/prebuilts/devtools" path="prebuilts/devtools" />
-  <project name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" />
   <project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" />
   <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" />
-  <project name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" />
-  <project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
   <project name="platform/prebuilts/gradle-plugin" path="prebuilts/gradle-plugin" />
   <project name="platform/prebuilts/libs/libedit" path="prebuilts/libs/libedit" />
   <project name="platform/prebuilts/maven_repo/android" path="prebuilts/maven_repo/android" />
