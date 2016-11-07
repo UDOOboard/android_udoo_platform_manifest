@@ -85,6 +85,7 @@
   <project path="packages/apps/Gallery2" name="android_packages_apps_Gallery2" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Launcher2" name="android_packages_apps_Launcher2" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/LegacyCamera" name="android_packages_apps_LegacyCamera" remote="udooboard-github" revision="android-6.0.1" />
+  <project path="packages/apps/Minicom" name="android_packages_apps_Minicom" remote="udooboard-github" revision="master" />
   <project path="packages/apps/Settings" name="android_packages_apps_Settings" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/SuperSU" name="android_packages_apps_SuperSU" remote="udooboard-github" revision="android-6.0.1" />
