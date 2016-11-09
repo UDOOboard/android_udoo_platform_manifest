@@ -90,6 +90,7 @@
   <project path="packages/apps/SoundRecorder" name="android_packages_apps_SoundRecorder" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/SuperSU" name="android_packages_apps_SuperSU" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="udooboard-github" revision="cm-13.0" />
+  <project path="packages/apps/UdooReboot" name="android_packages_apps_UdooReboot" remote="udooboard-github" revision="master" />
   <project path="system/bt" name="android_system_bt" remote="udooboard-github" revision="android-6.0.1" />
   <project path="system/core" name="android_system_core" remote="udooboard-github" revision="android-6.0.1" />
   <project path="system/extras" name="android_system_extras" remote="udooboard-github" revision="android-6.0.1" />
