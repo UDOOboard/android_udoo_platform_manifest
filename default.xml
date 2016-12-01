@@ -38,6 +38,7 @@
   <project path="device/fsl-codec" name="FreeSrk/codec" remote="github" revision="master" />
   <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/bash" name="android_external_bash" remote="udooboard-github" revision="cm-13.0" />
+  <project path="external/bossacjni" name="android_external_bossacjni" remote="udooboard-github" revision="master" />
   <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
   <project path="external/fsl_imx_omx" name="FreeSrk/omx" remote="github" revision="master" />
   <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" remote="github" revision="cm-13.0" />
