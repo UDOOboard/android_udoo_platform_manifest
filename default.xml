@@ -36,17 +36,17 @@
   <project path="device/wfd-proprietary" name="android_device_wfd-proprietary" remote="udooboard-github" revision="android-7.1" />
   <project path="external/bash" name="android_external_bash" remote="udooboard-github" revision="cm-14.1" />
   <project path="external/bossacjni" name="android_external_bossacjni" remote="udooboard-github" revision="master" />
-  <project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
+  <project path="external/busybox" name="LineageOS/android_external_busybox" remote="github" revision="cm-13.0" />
   <project path="external/fsl_imx_omx" name="android_external_fsl_imx_omx" remote="udooboard-github" revision="android-7.1" />
-  <project path="external/uicommon" name="CyanogenMod/android_external_cyanogen_UICommon" remote="github" revision="cm-14.1" />
-  <project path="external/libncurses" name="CyanogenMod/android_external_libncurses" remote="github" revision="cm-14.1" />
-  <project path="external/libtruezip" name="CyanogenMod/android_external_libtruezip" remote="github" revision="cm-14.1" />
+  <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" remote="github" revision="cm-14.1" />
+  <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="cm-14.1" />
+  <project path="external/libtruezip" name="LineageOS/android_external_libtruezip" remote="github" revision="cm-14.1" />
   <project path="external/linux-firmware-imx" name="android_external_linux-firmware-imx" remote="udooboard-github" revision="android-7.1" />
   <project path="external/linux-lib" name="android_external_linux-lib" remote="udooboard-github" revision="android-7.1" />
   <project path="external/mtd-utils" name="android_external_mtd-utils" remote="udooboard-github" revision="android-7.1" />
-  <project path="external/nano" name="CyanogenMod/android_external_nano" remote="github" revision="cm-14.1" />
+  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="cm-14.1" />
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="udooboard-github" revision="android-7.1" />
-  <project path="external/toybox" name="CyanogenMod/android_external_toybox" remote="github" revision="cm-14.1" />
+  <project path="external/toybox" name="LineageOS/android_external_toybox" remote="github" revision="cm-14.1" />
   <project path="external/tools" name="android_external_tools" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/udooneo-m4uploader" name="udooneo-m4uploader" remote="udooboard-github" revision="master" />
   <project path="external/udoofota" name="udoofota" remote="udooboard-github" revision="master" />
@@ -54,7 +54,7 @@
   <project path="hardware/ti/wlan" name="android_hardware_ti_wlan" remote="udooboard-github" revision="android-6.0.1" />
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/AdbWireless" name="android_packages_apps_AdbWireless" remote="udooboard-github" revision="android-6.0.1" />
-  <project path="packages/apps/CMFileManager" name="CyanogenMod/android_packages_apps_CMFileManager" remote="github" revision="cm-14.1" />
+  <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" remote="github" revision="cm-14.1" />
   <project path="packages/apps/fsl_imx_demo" name="android_packages_apps_fsl_imx_demo" remote="udooboard-github" revision="android-7.1" />
   <project path="packages/apps/Minicom" name="android_packages_apps_Minicom" remote="udooboard-github" revision="master" />
   <project path="packages/apps/SuperSU" name="android_packages_apps_SuperSU" remote="udooboard-github" revision="android-6.0.1" />
