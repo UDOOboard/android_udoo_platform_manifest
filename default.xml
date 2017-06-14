@@ -43,9 +43,8 @@
   <project path="external/linux-firmware-imx" name="android_external_linux-firmware-imx" remote="udooboard-github" revision="android-7.1" />
   <project path="external/linux-lib" name="android_external_linux-lib" remote="udooboard-github" revision="android-7.1" />
   <project path="external/mtd-utils" name="android_external_mtd-utils" remote="udooboard-github" revision="android-7.1" />
-  <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="cm-14.1" />
+  <!-- <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="cm-14.1" /> -->
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="udooboard-github" revision="android-7.1" />
-  <project path="external/tools" name="android_external_tools" remote="udooboard-github" revision="android-6.0.1" />
   <project path="external/udooneo-m4uploader" name="udooneo-m4uploader" remote="udooboard-github" revision="master" />
   <project path="external/udoofota" name="udoofota" remote="udooboard-github" revision="master" />
   <project path="hardware/imx" name="android_hardware_imx" remote="udooboard-github" revision="android-7.1" />
@@ -93,9 +92,9 @@
   <project path="system/vold" name="android_system_vold" remote="udooboard-github" revision="android-7.1" />
   
   <!-- Unchanged from Android_x86 -->
-  <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="android_x86" revision="9c984105900b298e75f6bb105aef8dea9bd0f110" upstream="marshmallow-x86"/>
+  <!-- <project path="external/bluetooth/bluez" name="platform/external/bluetooth/bluez" remote="android_x86" revision="9c984105900b298e75f6bb105aef8dea9bd0f110" upstream="marshmallow-x86"/>
   <project path="external/bluetooth/glib" name="platform/external/bluetooth/glib" remote="android_x86" revision="43b201bd2865131f849c0fdb58efc830de69aa7a" upstream="marshmallow-x86"/>
-  <project path="external/bluetooth/sbc" name="platform/external/bluetooth/sbc" remote="android_x86" revision="24812c660036a693f8770766aa6fdea667de05d0" upstream="marshmallow-x86"/>
+  <project path="external/bluetooth/sbc" name="platform/external/bluetooth/sbc" remote="android_x86" revision="24812c660036a693f8770766aa6fdea667de05d0" upstream="marshmallow-x86"/> -->
   
   <!-- Unchanged from UberTC -->
   <project name="arm-eabi-5.3.git" path="prebuilts/gcc/linux-x86/arm/arm-eabi-5.3" remote="UberTC" revision="master"/>
