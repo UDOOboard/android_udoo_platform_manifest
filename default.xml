@@ -30,7 +30,6 @@
 
   <!-- projects added by UDOOboard -->
   <project path="bootable/recovery" name="Team-Win-Recovery-Project" remote="udooboard-github" revision="android-7.1" />
-  <project path="device/fsl" name="android_device_fsl" remote="udooboard-github" revision="android-7.1" />
   <project path="device/fsl-codec" name="android_device_fsl-codec" remote="udooboard-github" revision="android-7.1" />
   <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="udooboard-github" revision="android-7.1" />
   <project path="device/wfd-proprietary" name="android_device_wfd-proprietary" remote="udooboard-github" revision="android-7.1" />
