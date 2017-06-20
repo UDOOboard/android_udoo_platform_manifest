@@ -42,7 +42,6 @@
   <project path="external/linux-firmware-imx" name="android_external_linux-firmware-imx" remote="udooboard-github" revision="android-7.1" />
   <project path="external/linux-lib" name="android_external_linux-lib" remote="udooboard-github" revision="android-7.1" />
   <project path="external/mtd-utils" name="android_external_mtd-utils" remote="udooboard-github" revision="android-7.1" />
-  <!-- <project path="external/nano" name="LineageOS/android_external_nano" remote="github" revision="cm-14.1" /> -->
   <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="udooboard-github" revision="android-7.1" />
   <project path="external/udooneo-m4uploader" name="udooneo-m4uploader" remote="udooboard-github" revision="master" />
   <project path="external/udoofota" name="udoofota" remote="udooboard-github" revision="master" />
@@ -87,6 +86,7 @@
   <project path="system/core" name="android_system_core" remote="udooboard-github" revision="android-7.1" />
   <project path="system/extras" name="android_system_extras" remote="udooboard-github" revision="android-7.1" />
   <project path="system/media" name="android_system_media" remote="udooboard-github" revision="android-7.1" />
+  <project path="system/sepolicy" name="android_system_sepolicy" remote="udooboard-github" revision="android-7.1" />
   <project path="system/netd" name="android_system_netd" remote="udooboard-github" revision="android-7.1" />
   <project path="system/vold" name="android_system_vold" remote="udooboard-github" revision="android-7.1" />
   
@@ -491,7 +491,6 @@
   <project path="system/nativepower" name="platform/system/nativepower" />
   <project path="system/nvram" name="platform/system/nvram" />
   <project path="system/security" name="platform/system/security" />
-  <project path="system/sepolicy" name="platform/system/sepolicy" />
   <project path="system/tools/aidl" name="platform/system/tools/aidl" />
   <project path="system/tpm" name="platform/system/tpm" />
   <project path="system/update_engine" name="platform/system/update_engine" />
