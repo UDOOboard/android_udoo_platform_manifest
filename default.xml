@@ -42,7 +42,7 @@
   <project path="external/linux-firmware-imx" name="android_external_linux-firmware-imx" remote="udooboard-github" revision="android-7.1" />
   <project path="external/linux-lib" name="android_external_linux-lib" remote="udooboard-github" revision="android-7.1" />
   <project path="external/mtd-utils" name="android_external_mtd-utils" remote="udooboard-github" revision="android-7.1" />
-  <project path="external/ntfs-3g" name="android_external_ntfs-3g" remote="udooboard-github" revision="android-7.1" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="android-7.1" />
   <project path="external/udooneo-m4uploader" name="udooneo-m4uploader" remote="udooboard-github" revision="master" />
   <project path="external/udoofota" name="udoofota" remote="udooboard-github" revision="master" />
   <project path="hardware/imx" name="android_hardware_imx" remote="udooboard-github" revision="android-7.1" />
@@ -51,6 +51,7 @@
   <project path="packages/apps/AdbWireless" name="android_packages_apps_AdbWireless" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" remote="github" revision="cm-14.1" />
   <project path="packages/apps/fsl_imx_demo" name="android_packages_apps_fsl_imx_demo" remote="udooboard-github" revision="android-7.1" />
+  <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="github" revision="cm-14.1" />
   <project path="packages/apps/Minicom" name="android_packages_apps_Minicom" remote="udooboard-github" revision="master" />
   <project path="packages/apps/SuperSU" name="android_packages_apps_SuperSU" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="udooboard-github" revision="cm-14.1" />
@@ -412,7 +413,6 @@
   <project path="packages/apps/Launcher3" name="platform/packages/apps/Launcher3" />
   <project path="packages/apps/ManagedProvisioning" name="platform/packages/apps/ManagedProvisioning" />
   <project path="packages/apps/Messaging" name="platform/packages/apps/Messaging" />
-  <project path="packages/apps/Music" name="platform/packages/apps/Music" />
   <project path="packages/apps/MusicFX" name="platform/packages/apps/MusicFX" />
   <project path="packages/apps/Nfc" name="platform/packages/apps/Nfc" />
   <project path="packages/apps/OneTimeInitializer" name="platform/packages/apps/OneTimeInitializer" />
@@ -421,7 +421,6 @@
   <project path="packages/apps/PhoneCommon" name="platform/packages/apps/PhoneCommon" />
   <project path="packages/apps/Protips" name="platform/packages/apps/Protips" />
   <project path="packages/apps/Provision" name="platform/packages/apps/Provision" />
-  <project path="packages/apps/QuickSearchBox" name="platform/packages/apps/QuickSearchBox" />
   <project path="packages/apps/RetailDemo" name="platform/packages/apps/RetailDemo" />
   <project path="packages/apps/SafetyRegulatoryInfo" name="platform/packages/apps/SafetyRegulatoryInfo" />
   <project path="packages/apps/SpareParts" name="platform/packages/apps/SpareParts" />
@@ -432,7 +431,6 @@
   <project path="packages/apps/Test/connectivity" name="platform/packages/apps/Test/connectivity" />
   <project path="packages/apps/TvSettings" name="platform/packages/apps/TvSettings" />
   <project path="packages/apps/TV" name="platform/packages/apps/TV" />
-  <project path="packages/apps/UnifiedEmail" name="platform/packages/apps/UnifiedEmail" />
   <project path="packages/experimental" name="platform/packages/experimental" />
   <project path="packages/inputmethods/LatinIME" name="platform/packages/inputmethods/LatinIME" />
   <project path="packages/inputmethods/OpenWnn" name="platform/packages/inputmethods/OpenWnn" />
