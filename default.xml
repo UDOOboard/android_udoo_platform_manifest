@@ -42,7 +42,7 @@
   <project path="external/linux-firmware-imx" name="android_external_linux-firmware-imx" remote="udooboard-github" revision="android-7.1" />
   <project path="external/linux-lib" name="android_external_linux-lib" remote="udooboard-github" revision="android-7.1" />
   <project path="external/mtd-utils" name="android_external_mtd-utils" remote="udooboard-github" revision="android-7.1" />
-  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="android-7.1" />
+  <project path="external/ntfs-3g" name="LineageOS/android_external_ntfs-3g" remote="github" revision="cm-14.1" />
   <project path="external/udooneo-m4uploader" name="udooneo-m4uploader" remote="udooboard-github" revision="master" />
   <project path="external/udoofota" name="udoofota" remote="udooboard-github" revision="master" />
   <project path="hardware/imx" name="android_hardware_imx" remote="udooboard-github" revision="android-7.1" />
