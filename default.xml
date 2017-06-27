@@ -50,7 +50,7 @@
   <project path="hardware/ti/wpan" name="android_hardware_ti_wpan" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/AdbWireless" name="android_packages_apps_AdbWireless" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/CMFileManager" name="LineageOS/android_packages_apps_CMFileManager" remote="github" revision="cm-14.1" />
-  <project path="packages/apps/fsl_imx_demo" name="android_packages_apps_fsl_imx_demo" remote="udooboard-github" revision="android-7.1" />
+  <project path="packages/apps/Ethernet" name="android_packages_apps_Ethernet" remote="udooboard-github" revision="master" />
   <project path="packages/apps/Eleven" name="LineageOS/android_packages_apps_Eleven" remote="github" revision="cm-14.1" />
   <project path="packages/apps/Minicom" name="android_packages_apps_Minicom" remote="udooboard-github" revision="master" />
   <project path="packages/apps/SuperSU" name="android_packages_apps_SuperSU" remote="udooboard-github" revision="android-6.0.1" />
