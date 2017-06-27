@@ -32,7 +32,6 @@
   <project path="bootable/recovery" name="Team-Win-Recovery-Project" remote="udooboard-github" revision="android-7.1" />
   <project path="device/fsl-codec" name="android_device_fsl-codec" remote="udooboard-github" revision="android-7.1" />
   <project path="device/fsl-proprietary" name="android_device_fsl-proprietary" remote="udooboard-github" revision="android-7.1" />
-  <project path="device/wfd-proprietary" name="android_device_wfd-proprietary" remote="udooboard-github" revision="android-7.1" />
   <project path="external/bash" name="android_external_bash" remote="udooboard-github" revision="cm-14.1" />
   <project path="external/bossacjni" name="android_external_bossacjni" remote="udooboard-github" revision="master" />
   <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-7.1" />
@@ -109,13 +108,6 @@
   <project path="dalvik" name="platform/dalvik" />
   <project path="developers/build" name="platform/developers/build" />
   <project path="development" name="platform/development" />
-  <project path="device/common" name="device/common" />
-  <project path="device/generic/armv7-a-neon" name="device/generic/armv7-a-neon" />
-  <project path="device/generic/common" name="device/generic/common" />
-  <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" />
-  <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" />
-  <project path="device/google/atv" name="device/google/atv" />
-  <project path="device/google/contexthub" name="device/google/contexthub" />
   <project path="external/aac" name="platform/external/aac" />
   <project path="external/adt-infra" name="platform/external/adt-infra" />
   <project path="external/android-clat" name="platform/external/android-clat" />
