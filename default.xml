@@ -35,6 +35,7 @@
   <project path="device/wfd-proprietary" name="android_device_wfd-proprietary" remote="udooboard-github" revision="android-7.1" />
   <project path="external/bash" name="android_external_bash" remote="udooboard-github" revision="cm-14.1" />
   <project path="external/bossacjni" name="android_external_bossacjni" remote="udooboard-github" revision="master" />
+  <project path="external/busybox" name="omnirom/android_external_busybox" remote="github" revision="android-7.1" />
   <project path="external/fsl_imx_omx" name="android_external_fsl_imx_omx" remote="udooboard-github" revision="android-7.1" />
   <project path="external/uicommon" name="LineageOS/android_external_cyanogen_UICommon" remote="github" revision="cm-14.1" />
   <project path="external/libncurses" name="LineageOS/android_external_libncurses" remote="github" revision="cm-14.1" />
