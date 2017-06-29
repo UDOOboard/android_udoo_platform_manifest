@@ -56,6 +56,7 @@
   <project path="packages/apps/SuperSU" name="android_packages_apps_SuperSU" remote="udooboard-github" revision="android-6.0.1" />
   <project path="packages/apps/Terminal" name="android_packages_apps_Terminal" remote="udooboard-github" revision="cm-14.1" />
   <project path="packages/apps/UdooReboot" name="android_packages_apps_UdooReboot" remote="udooboard-github" revision="master" />
+  <project path="vendor/chromium" name="android_vendor_chromium" remote="udooboard-github" revision="master" />
 
   <!-- AOSP projects changed by UDOOboard and NXP -->
   <project path="bionic" name="android_bionic" remote="udooboard-github" revision="android-7.1" />
